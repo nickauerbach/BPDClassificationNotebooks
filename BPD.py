@@ -31,5 +31,9 @@ incidents = pd.read_csv("Incidents_2020-10-01.csv")
 incidents.info()
 
 # Merge all datasets up until latest common incident - 11/2018
+bpd_all = arraign.merge(arrests)
+bpd_all = arraign.merge(useOfForce)
+bpd_all = arraign.merge(hateCrime)
+bpd_all = arraign.merge(incidents)
 
 
