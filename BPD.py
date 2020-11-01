@@ -42,5 +42,3 @@ with open("HateCrimeOpenData.csv") as f:
 arraign = pd.read_csv("arraignment_data_2019_5_30.csv", encoding="cp1252")
 with open("arraignment_data_2019_5_30.csv") as f:
     print(f)
-
-hateCrime.head()
