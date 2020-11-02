@@ -35,4 +35,4 @@ hateCrime.info()
 # Case level data set on BPD cases arraigned since September, 2017 through May, 2019.
 # The data is described in more detail here: https://www.burlingtonvt.gov/sites/default/files/u585/Reports/ArraignmentDataDictionary.pdf
 arraign = pd.read_csv("arraignment_data_2019_5_30.csv", encoding="cp1252")
-incidents.info()
+arraign.info()
