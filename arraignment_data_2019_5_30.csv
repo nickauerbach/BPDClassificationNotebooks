@@ -1,4 +1,4 @@
-﻿incident_num,defendant_id,arraignment_date,charge,num_charges,felony,expungable,any_bail,bail_amount,bail_types,num_conditions,did_not_appear,prior_appearences,gender,race,judge_id,arraignment_data
+﻿incident_number,defendant_id,arraignment_date,charge,num_charges,felony,expungable,any_bail,bail_amount,bail_types,num_conditions,did_not_appear,prior_appearences,gender,race,judge_id,arraignment_data
 17BU021289,Defendant128,9/12/2017,Retail Theft (Misd),1,0,1,0,0,No Bail,5,0,0,Male,White,Judge10,TRUE
 17BU021858,Defendant909,9/12/2017,"Driving Under The Influence, First Offense",1,0,0,0,0,No Bail,1,0,0,Male,White,Judge10,TRUE
 17BU023711,Defendant127,9/12/2017,Unlawful Trespass (Misdemeanor),2,0,1,0,0,No Bail,2,0,0,Male,White,Judge10,TRUE
