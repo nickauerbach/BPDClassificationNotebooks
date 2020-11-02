@@ -43,3 +43,5 @@ hateCrime.info()
 # The data is described in more detail here: https://www.burlingtonvt.gov/sites/default/files/u585/Reports/ArraignmentDataDictionary.pdf
 arraign = pd.read_csv("arraignment_data_2019_5_30.csv", encoding="cp1252")
 arraign.info()
+
+print(incidents.head(10))
