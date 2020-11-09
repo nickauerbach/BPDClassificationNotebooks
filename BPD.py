@@ -19,7 +19,7 @@ arrests.info()
 fig, ax = plt.subplots()
 ax.plot(arrests["age"])
 plt.gcf().canvas.set_window_title("Age of Arrested")
-plt.show()
+#plt.show()
 
 # Traffic stops from 2012 through 2019. There are 16 variables plus flags for traffic violation types.
 # The data is described in more detail here: https://www.burlingtonvt.gov/sites/default/files/u585/Reports/Data%20Dictionary%202019.pdf
@@ -127,4 +127,4 @@ incident5["gender"] = gender
 incident5=incident5.drop(columns=['raceA', 'raceF', 'raceT','raceR','ageA', 'ageT', 'ageF','chargeA', 'chargeR','genderA', 'genderT', 'genderF','genderR'])
 
 #merged with correct columns
-incident5
+incident5.info()
