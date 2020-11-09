@@ -128,3 +128,4 @@ incident5=incident5.drop(columns=['raceA', 'raceF', 'raceT','raceR','ageA', 'age
 
 #merged with correct columns
 incident5.info()
+print(incident5.head())
