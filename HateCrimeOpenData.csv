@@ -1,45 +1,45 @@
-﻿incident_number,Street ,Team,Type of Hate/Bias,Targeted Group,Victim Offender Relationship,Severity,hate_crime
-12BU008808, King St/ Church St,E EVENING,Race/Ethnicity,Black,Otherwise Known,Felony,TRUE
-13BU024648, Maple St/Church St,B DAYSHIFT,Sexual Orientation,,Stranger,Felony,TRUE
-16BU015695,Woodbury,G MIDS,Race/Ethnicity,Black,Acquaintance,Felony,TRUE
-12BU015055,Grant St,NONE,Race/Ethnicity,Black,Unknown,Misdemeanor,TRUE
-12BU016150,N Winooski Ave,A DAYSHIFT,Race/Ethnicity,Multi-Racial,Otherwise Known,Misdemeanor,TRUE
-12BU017047,Riverside Ave,NONE,Race/Ethnicity,Black,Stranger,Misdemeanor,TRUE
-12BU021154,North St,SRO,Race/Ethnicity,Black,Acquaintance,Misdemeanor,TRUE
-12BU024252,Church St,xH MIDS,Race/Ethnicity,Black,Stranger,Misdemeanor,TRUE
-12BU025052, N Winooski Ave/North St,NONE,Race/Ethnicity,Black,Stranger,Misdemeanor,TRUE
-12BU027609,Decatur St,B DAYSHIFT,Religion,Jewish,Unknown,Misdemeanor,TRUE
-13BU015966, Grant St,C SWING SHIFT,Race/Ethnicity,Black,Stranger,Misdemeanor,TRUE
-13BU018525, Pearl St/Pine St,B DAYSHIFT,Sexual Orientation,,Acquaintance,Misdemeanor,TRUE
-13BU024183,S Williams St,D EVENING,Sexual Orientation,,Acquaintance,Misdemeanor,TRUE
-13BU027095,Hickock Pl,A DAYSHIFT,Race/Ethnicity,White,Stranger,Misdemeanor,TRUE
-14BU000650,Riverside Ave,B DAYSHIFT,Race/Ethnicity,Multi-Racial,Stranger,Misdemeanor,TRUE
-14BU002217,Hyde St,A DAYSHIFT,Race/Ethnicity,Black,Otherwise Known,Misdemeanor,TRUE
-14BU013433, Church St/Main St,B DAYSHIFT,Sexual Orientation,,Stranger,Misdemeanor,TRUE
-14BU024991,Pine St,A DAYSHIFT,Sexual Orientation,,Stranger,Misdemeanor,TRUE
-14BU026373,S Winooski Ave,NONE,Race/Ethnicity,Hispanic,Otherwise Known,Misdemeanor,TRUE
-14BU029953, Flynn Ave,DSB / SCU,Religion,Jewish,Otherwise Known,Misdemeanor,TRUE
-14BU032168,North Ave,B DAYSHIFT,,,,Misdemeanor,TRUE
-15BU011556,Pearl St,B DAYSHIFT,Race/Ethnicity,Black,Acquaintance,Misdemeanor,TRUE
-15BU012665, Church St/Main St,DSB / SCU,Race/Ethnicity,Asian,Stranger,Misdemeanor,TRUE
-15BU015959,Main St,D EVENING,Race/Ethnicity,Asian,Unknown,Misdemeanor,TRUE
-15BU031283,S.Winooski Ave,DSB / SCU,Race/Ethnicity,Hispanic,Stranger,Misdemeanor,TRUE
-15BU019988,Church St,DSB / SCU,Sexual Orientation,,Unknown,Misdemeanor,TRUE
-15BU032397,Church St,G MIDS,Race/Ethnicity,Black,Acquaintance,Misdemeanor,TRUE
-15BU035042, Church St/Bank St,B DAYSHIFT,Race/Ethnicity,Black,Stranger,Misdemeanor,TRUE
-16BU005811,Pomeroy St,D EVENING,Race/Ethnicity,Black,Unknown,Misdemeanor,TRUE
-16BU009257,King St ,NONE,Race/Ethnicity,Black,Stranger,Misdemeanor,TRUE
-16BU011114, N Champlain St,F MIDS,Religion,Muslim,Stranger,Misdemeanor,TRUE
-16BU017168, Church St/Cherry St,SRO,Race/Ethnicity,Black,Stranger,Misdemeanor,TRUE
-16BU022086,Pearl St,D EVENING,Race/Ethnicity,Asian,Stranger,Misdemeanor,TRUE
-16BU022875,N Champlain St,C SWING SHIFT,Race/Ethnicity,Black,Acquaintance,Misdemeanor,TRUE
-16BU031639,Heinburg Rd,DSB / SCU,Sexual Orientation,,Acquaintance,Misdemeanor,TRUE
-16BU032783,Buell St,B DAYSHIFT,Religion,Protestant,Unknown,Misdemeanor,TRUE
-16BU036293,Church St,DSB / SCU,Religion,Jewish,Otherwise Known,Misdemeanor,TRUE
-17BU002769,North St,DSB / SCU,Race/Ethnicity,Black,Stranger,Misdemeanor,TRUE
-17BU007701, North St/Rose St,B DAYSHIFT,Race/Ethnicity,Black,Stranger,Misdemeanor,TRUE
-18BU000913, Bank St ,E EVENING,Sexual Orientation,,Acquaintance,Misdemeanor,TRUE
-18BU007090,Bright St,SRO,Race/Ethnicity,Black,Stranger/Otherwise Known,Misdemeanor,TRUE
-18BU018092,College St,DSB / SCU,Gender Identity/Expression,,Otherwise Known,Misdemeanor,TRUE
-18BU023565,Church St,,Religion,Jewish,Otherwise Known,Misdemeanor,TRUE
-18BU024689,North Ave,DSB / SCU,Race/Ethnicity,Black,Stranger,Misdemeanor,TRUE
+﻿incident_number,Team,Type of Hate/Bias,Targeted Group,Victim Offender Relationship,Severity,hate_crime
+12BU008808,E EVENING,Race/Ethnicity,Black,Otherwise Known,Felony,TRUE
+13BU024648,B DAYSHIFT,Sexual Orientation,,Stranger,Felony,TRUE
+16BU015695,G MIDS,Race/Ethnicity,Black,Acquaintance,Felony,TRUE
+12BU015055,NONE,Race/Ethnicity,Black,Unknown,Misdemeanor,TRUE
+12BU016150,A DAYSHIFT,Race/Ethnicity,Multi-Racial,Otherwise Known,Misdemeanor,TRUE
+12BU017047,NONE,Race/Ethnicity,Black,Stranger,Misdemeanor,TRUE
+12BU021154,SRO,Race/Ethnicity,Black,Acquaintance,Misdemeanor,TRUE
+12BU024252,xH MIDS,Race/Ethnicity,Black,Stranger,Misdemeanor,TRUE
+12BU025052,NONE,Race/Ethnicity,Black,Stranger,Misdemeanor,TRUE
+12BU027609,B DAYSHIFT,Religion,Jewish,Unknown,Misdemeanor,TRUE
+13BU015966,C SWING SHIFT,Race/Ethnicity,Black,Stranger,Misdemeanor,TRUE
+13BU018525,B DAYSHIFT,Sexual Orientation,,Acquaintance,Misdemeanor,TRUE
+13BU024183,D EVENING,Sexual Orientation,,Acquaintance,Misdemeanor,TRUE
+13BU027095,A DAYSHIFT,Race/Ethnicity,White,Stranger,Misdemeanor,TRUE
+14BU000650,B DAYSHIFT,Race/Ethnicity,Multi-Racial,Stranger,Misdemeanor,TRUE
+14BU002217,A DAYSHIFT,Race/Ethnicity,Black,Otherwise Known,Misdemeanor,TRUE
+14BU013433,B DAYSHIFT,Sexual Orientation,,Stranger,Misdemeanor,TRUE
+14BU024991,A DAYSHIFT,Sexual Orientation,,Stranger,Misdemeanor,TRUE
+14BU026373,NONE,Race/Ethnicity,Hispanic,Otherwise Known,Misdemeanor,TRUE
+14BU029953,DSB / SCU,Religion,Jewish,Otherwise Known,Misdemeanor,TRUE
+14BU032168,B DAYSHIFT,,,,Misdemeanor,TRUE
+15BU011556,B DAYSHIFT,Race/Ethnicity,Black,Acquaintance,Misdemeanor,TRUE
+15BU012665,DSB / SCU,Race/Ethnicity,Asian,Stranger,Misdemeanor,TRUE
+15BU015959,D EVENING,Race/Ethnicity,Asian,Unknown,Misdemeanor,TRUE
+15BU031283,DSB / SCU,Race/Ethnicity,Hispanic,Stranger,Misdemeanor,TRUE
+15BU019988,DSB / SCU,Sexual Orientation,,Unknown,Misdemeanor,TRUE
+15BU032397,G MIDS,Race/Ethnicity,Black,Acquaintance,Misdemeanor,TRUE
+15BU035042,B DAYSHIFT,Race/Ethnicity,Black,Stranger,Misdemeanor,TRUE
+16BU005811,D EVENING,Race/Ethnicity,Black,Unknown,Misdemeanor,TRUE
+16BU009257,NONE,Race/Ethnicity,Black,Stranger,Misdemeanor,TRUE
+16BU011114,F MIDS,Religion,Muslim,Stranger,Misdemeanor,TRUE
+16BU017168,SRO,Race/Ethnicity,Black,Stranger,Misdemeanor,TRUE
+16BU022086,D EVENING,Race/Ethnicity,Asian,Stranger,Misdemeanor,TRUE
+16BU022875,C SWING SHIFT,Race/Ethnicity,Black,Acquaintance,Misdemeanor,TRUE
+16BU031639,DSB / SCU,Sexual Orientation,,Acquaintance,Misdemeanor,TRUE
+16BU032783,B DAYSHIFT,Religion,Protestant,Unknown,Misdemeanor,TRUE
+16BU036293,DSB / SCU,Religion,Jewish,Otherwise Known,Misdemeanor,TRUE
+17BU002769,DSB / SCU,Race/Ethnicity,Black,Stranger,Misdemeanor,TRUE
+17BU007701,B DAYSHIFT,Race/Ethnicity,Black,Stranger,Misdemeanor,TRUE
+18BU000913,E EVENING,Sexual Orientation,,Acquaintance,Misdemeanor,TRUE
+18BU007090,SRO,Race/Ethnicity,Black,Stranger/Otherwise Known,Misdemeanor,TRUE
+18BU018092,DSB / SCU,Gender Identity/Expression,,Otherwise Known,Misdemeanor,TRUE
+18BU023565,,Religion,Jewish,Otherwise Known,Misdemeanor,TRUE
+18BU024689,DSB / SCU,Race/Ethnicity,Black,Stranger,Misdemeanor,TRUE
