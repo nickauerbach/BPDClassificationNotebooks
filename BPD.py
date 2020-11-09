@@ -18,6 +18,7 @@ arrests = pd.read_csv("Arrests_2020-10-01.csv")
 arrests.info()
 fig, ax = plt.subplots()
 ax.plot(arrests["age"])
+ax.set(xlabel = "", ylabel = "",title = "")
 plt.gcf().canvas.set_window_title("Age of Arrested")
 plt.show()
 
