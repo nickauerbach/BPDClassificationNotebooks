@@ -1,3 +1,11 @@
+import numpy as np
+import pandas as pd
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+
+# RAW DATA
+# https://www.burlingtonvt.gov/Police/Data/OpenData
+
 # Incident level data for all call types from 2012. Variables include type of call, origin of call (Officer, Phone, etc), call time and street.
 # It also includes an approximate latitude and longitude for mapping, for all but the most sensitive types of calls.
 # New: data now includes Ward, District and Type (severity). Data is updated approximately every month.
@@ -41,7 +49,7 @@ trafficStops=trafficStops.rename(columns={'gender':'genderT', "age":"ageT", "rac
 useOfForce=useOfForce.rename(columns={'gender':'genderF', "age":"ageF", "race":"raceF", "arrest":"arrestF"})
 arraign=arraign.rename(columns={'gender':'genderR', "race":"raceR", "charge":"chargeR"})
 
-incident1=pd.merge(left=incidents, right=arrests, how="left", left_on="ï»¿incident_number", right_on="incident_number")
+incident1=pd.merge(left=incidents, right=arrests, how="left", left_on="incident_number", right_on="incident_number")
 
 incident2=pd.merge(left=incident1, right=trafficStops, how="left", left_on="incident_number", right_on="incident_number")
 incident3=pd.merge(left=incident2, right=useOfForce, how="left", left_on="incident_number", right_on="incident_number")
