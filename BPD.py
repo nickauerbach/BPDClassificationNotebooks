@@ -15,17 +15,17 @@ incidents = pd.read_csv("Incidents_2020-10-01.csv")
 # Arrests by charge and arrestee demographics since 2012. Includes date of arrest, gender, age and race of arrestee.
 # NOTE: Each row represents one charge, not one arrest. A single arrest may include multiple charges.
 arrests = pd.read_csv("Arrests_2020-10-01.csv")
-fig, ax = plt.subplots()
-ax.plot(arrests["age"])
-plt.gcf().canvas.set_window_title("Age of Arrested")
-plt.show()
+#fig, ax = plt.subplots()
+#ax.plot(arrests["age"])
+#plt.gcf().canvas.set_window_title("Age of Arrested")
+#plt.show()
 #arrests.info()
 
 
 # Traffic stops from 2012 through 2019. There are 16 variables plus flags for traffic violation types.
 # The data is described in more detail here: https://www.burlingtonvt.gov/sites/default/files/u585/Reports/Data%20Dictionary%202019.pdf
 trafficStops = pd.read_csv("BPDTrafficStops2012_2019.csv")
-trafficStops.info()
+#trafficStops.info()
 
 # Use-of-Force incidents by subject from 2012 through 2018. Includes demographic data and flags for type of resistance and force used.
 # The data is described in more detail here: https://www.burlingtonvt.gov/sites/default/files/u585/Reports/UOF%20Data%20Dictionary.pdf
@@ -128,6 +128,6 @@ incident5["gender"] = gender
 incident5=incident5.drop(columns=['raceA', 'raceF', 'raceT','raceR','ageA', 'ageT', 'ageF','chargeA', 'chargeR','genderA', 'genderT', 'genderF','genderR'])
 
 #merged with correct columns
-#incident5.info()
+incident5.info()
 incident5.head()
 
