@@ -35,7 +35,7 @@ useOfForce = pd.read_csv("BPD_UseOfForce_2012_2018.csv")
 # Hate crime offenses from 2012 through November 2018 including 41 misdemeanor offenses and 3 felony offenses.
 # Note: Data updated on 11/16/2018.
 hateCrime = pd.read_csv("HateCrimeOpenData.csv")
-#hateCrime.info()
+hateCrime.info()
 
 # SEPARATE DATA (2017-19)
 
@@ -128,6 +128,16 @@ incident5["gender"] = gender
 incident5=incident5.drop(columns=['raceA', 'raceF', 'raceT','raceR','ageA', 'ageT', 'ageF','chargeA', 'chargeR','genderA', 'genderT', 'genderF','genderR'])
 
 #merged with correct columns
-incident5.info()
-incident5.head()
+#incident5.info()
 
+#drop unwanted columns (hate crime columns + more)
+incident5.drop(columns=["Team","Type of Hate/Bias","Targeted Group","Victim Offender Relationship","Severity","hate_crime","veh_state","stop_location","most_serious","arraignment_date","most_serious_charge"])
+# incident5.drop()
+
+
+#drop all rows that do not include race, change African American to Black
+
+#create boolean columns for BIPOC including Black, hispanic/latino
+
+#show final columns
+incident5.info()
