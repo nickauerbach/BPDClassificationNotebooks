@@ -10,17 +10,16 @@ import matplotlib.pyplot as plt
 # It also includes an approximate latitude and longitude for mapping, for all but the most sensitive types of calls.
 # New: data now includes Ward, District and Type (severity). Data is updated approximately every month.
 incidents = pd.read_csv("Incidents_2020-10-01.csv")
-#incidents.info()
+incidents.info()
 
 # Arrests by charge and arrestee demographics since 2012. Includes date of arrest, gender, age and race of arrestee.
 # NOTE: Each row represents one charge, not one arrest. A single arrest may include multiple charges.
 arrests = pd.read_csv("Arrests_2020-10-01.csv")
-#fig, ax = plt.subplots()
-#ax.plot(arrests["age"])
-#plt.gcf().canvas.set_window_title("Age of Arrested")
-#plt.show()
-#arrests.info()
-
+arrests.info()
+fig, ax = plt.subplots()
+ax.plot(arrests["age"])
+plt.gcf().canvas.set_window_title("Age of Arrested")
+plt.show()
 
 # Traffic stops from 2012 through 2019. There are 16 variables plus flags for traffic violation types.
 # The data is described in more detail here: https://www.burlingtonvt.gov/sites/default/files/u585/Reports/Data%20Dictionary%202019.pdf
@@ -125,18 +124,8 @@ incident5['age'] = age
 incident5["charge"] = charge
 incident5["race"] = race
 incident5["gender"] = gender
-incident5 = incident5.drop(columns=['raceA', 'raceF', 'raceT','raceR','ageA', 'ageT', 'ageF','chargeA', 'chargeR','genderA', 'genderT', 'genderF','genderR'])
+incident5=incident5.drop(columns=['raceA', 'raceF', 'raceT','raceR','ageA', 'ageT', 'ageF','chargeA', 'chargeR','genderA', 'genderT', 'genderF','genderR'])
 
 #merged with correct columns
-#incident5.info()
-
-#drop unwanted columns (hate crime columns + more)
-incident5 = incident5.drop(columns=["Team","Type of Hate/Bias","Targeted Group","Victim Offender Relationship","Severity","hate_crime","veh_state","stop_location","most_serious","arraignment_date","most_serious_charge"])
-#incident5.drop()
-
-#drop all rows that do not include race, change African American to Black (nick)
-
-#create boolean columns for BIPOC including Black, hispanic/latino
-
-#show final columns
 incident5.info()
+print(incident5.head())
